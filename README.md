@@ -1,6 +1,6 @@
 # biocrystal
 
-TODO: Write a description here
+BioCrystal is an open source resource aiding the development of bioinformatics software.
 
 ## Installation
 
@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      biocrystal:
-       github: your-github-user/biocrystal
+       github: leandroradusky/biocrystal
    ```
 
 2. Run `shards install`
@@ -28,7 +28,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/biocrystal/fork>)
+1. Fork it (<https://github.com/leandroradusky/biocrystal/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -36,4 +36,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [lradusky](https://github.com/your-github-user) - creator and maintainer
+- [lradusky](https://github.com/leandroradusky) - creator and maintainer
