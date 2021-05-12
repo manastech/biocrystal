@@ -1,6 +1,6 @@
 # biocrystal
 
-BioCrystal is an open source resource aiding the development of bioinformatics software.
+BioCrystal is an open source Crystal language library for developing bioinformatics software.
 
 ## Installation
 
@@ -9,7 +9,7 @@ BioCrystal is an open source resource aiding the development of bioinformatics s
    ```yaml
    dependencies:
      biocrystal:
-       github: leandroradusky/biocrystal
+       github: manastech/biocrystal
    ```
 
 2. Run `shards install`
@@ -28,7 +28,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/leandroradusky/biocrystal/fork>)
+1. Fork it (<https://github.com/manastech/biocrystal/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

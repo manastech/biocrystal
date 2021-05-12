@@ -2,8 +2,11 @@ name: biocrystal
 version: 0.1.0
 
 authors:
-  - lradusky <leandro.radusky@gmail.com>
+  - lradusky <lradusky@manas.tech>
 
+description: |
+  BioCrystal is an open source Crystal shard for developing of bioinformatics software.
+  
 crystal: 1.0.0
 
-license: MIT
+license: -
