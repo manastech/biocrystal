@@ -1,6 +1,9 @@
-# TODO: Write documentation for `Biocrystal`
-module Biocrystal
-  VERSION = "0.1.0"
+require "./sequence/sequence"
+require "./sequence/fasta"
 
-  # TODO: Put your code here
+require "./align/blast"
+
+module Bio
+  VERSION = "0.1.0"
+  
 end

@@ -1,3 +1,5 @@
+# Usage of Bio::Fasta functionalities.
+
 require "../src/biocrystal"
 
 myFasta = Bio::Fasta.from_file "data/6wwp.fasta"
