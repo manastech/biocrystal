@@ -6,7 +6,11 @@ authors:
 
 description: |
   BioCrystal is an open source Crystal shard for developing of bioinformatics software.
-  
+
+dependencies:
+  num:
+    github: crystal-data/num.cr
+
 crystal: 1.0.0
 
-license: -
+license: MIT
