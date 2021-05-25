@@ -2,9 +2,6 @@
 
 require "../src/biocrystal"
 
-# TODO: Create a fasta collection of sequence from a string
-
-
 # Create a fasta collection of sequences from a local file 
 myFasta = Bio::Fasta.from_file( "data/6wwp.fasta" , 0, nil, sequence_type = Bio::SequenceType::Protein )
 
@@ -17,17 +14,7 @@ myFasta.records.each do |key|
   puts myFasta.record(key).sequence
 end
 
-# TODO: Search all sequences from the organism Sus scrofa (9823)
-
-# TODO: Create a fasta collection of sequence from a remote url
-
-
-# TODO: Blast a sequence locally with blast
-
-puts
-puts myFasta.to_fasta_str
-puts
-
+# Blast a sequence locally with blast
 blast_results = Bio::Blast.run_local( myFasta, myFasta.record(myFasta.records[0]) )
 
 blast_results.each do | hit |
@@ -40,3 +27,9 @@ blast_results.each do | hit |
     puts 
   end
 end
+
+# TODO: Search all sequences from the organism Sus scrofa (9823)
+
+# TODO: Create a fasta collection of sequences from a remote url
+
+# TODO: Run blast against an online database
